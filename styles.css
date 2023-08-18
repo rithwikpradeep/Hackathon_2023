@@ -1,0 +1,1395 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 110;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+/* Global styles */
+body {
+    background-color: #1e1e1e; /* Matte Black */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #1e1e1e; /* Matte Black */
+    padding: 10px;
+    text-align: center;
+    color: #ffd700;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navigation a {
+    margin-right: 20px;
+    font-size: 26px;
+}
+
+.navigation a:hover {
+    color: #ffd700; /* Gold */
+}
+
+/* Main content styles */
+.main-content {
+    padding: 0px;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: #ffd700; /* Gold */
+}
+
+.hero-section {
+    text-align: center;
+    padding: 0px 0;
+    color: #ffd700;
+    font-size: 136px;
+}
+
+.hero-heading {
+    font-size: 136px;
+    margin-bottom: 0px;
+    color: #ffd700; /* Gold */
+}
+
+.hero-subheading {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Gold */
+    color: #000;
+    border: none;
+    border-radius: 100px;
+    font-size: 26px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 180px;
+    margin-top: 0px;
+}
+
+.cta-button:hover {
+    background-color: #daa520; /* Dark Gold */
+}
+
+/* Features section styles */
+.features-section {
+    padding: 40px 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Gold */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.feature {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.feature img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.feature-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold */
+}
+
+.feature-description {
+    font-size: 16px;
+}
+
+/* How It Works section styles */
+.how-it-works-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.step {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.step img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.step-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold */
+}
+
+.step-description {
+    font-size: 16px;
+}
+
+/* Testimonials section styles */
+.testimonials-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.testimonial {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ffd700; /* Gold */
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #1e1e1e; /* Matte Black */
+    text-align: center;
+    padding: 10px;
+    color:  #ffd700;
+}
+
+.footer-text {
+    font-size: 14px;
+    color:  #ffd700;
+}
+.hero-heading {
+    font-family: 'CustomFont', sans-serif; /* Apply the custom font here */
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ffd700; /* Gold */
+}
+/* Reset default styles */
+/* ... */
+
+/* Global styles */
+/* ... */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+/* Header styles */
+/* ... */
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+}
+
+/* Reset some default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light Gray */
+}
+
+.header {
+  background-color: #333; /* Dark Gray */
+  color: #fff; /* White text */
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navigation {
+  margin-top: 10px;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.main-content {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  margin-top: -90px;
+}
+
+.section-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: rgb(150, 249, 150); /* Lighter Gold on hover */
+  color: #fff
+}
+
+
+/* ... */
+
+/* Footer styles */
+/* ... */
+
+/* Reset default styles */
+/* ... */
+
+/* Global styles */
+/* ... */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+/* ... */
+
+/* Main content styles */
+.main-content {
+    padding: 120px;
+}
+
+/* Video section styles */
+.video-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+/* Reset default styles */
+/* ... */
+
+/* Global styles */
+/* ... */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #000;
+    padding: 10px;
+}
+
+.header .navigation {
+    text-align: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Main content styles */
+.About-Content {
+    text-align: left;
+    margin-top: 40px;
+    color: #ffd700;
+}
+
+.About-Content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffd700; /* Gold */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.About-Content p {
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Container styles */
+.About-Content-container {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Video section styles */
+.video-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.video-section iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+}
+
+.footer-text {
+    color: #ffd700;
+}
+
+/* ... */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease forwards;
+    font: size 120rpx;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:auto;
+    margin-top:-70px;
+    color: #ffd700;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.FAQs-Content h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);    
+    color: gold;
+}
+.FAQs-Content ol,li{
+  text-align: left;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.FAQ-img{
+  right:1000px;
+  top: 10px;
+  text-align: center;
+  width:auto;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);    
+}
+
+/* Card styles */
+.EDU-container .card {
+  background-color: #1e1e1e; /* Dark Matte Black */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.EDU-container .card-header {
+  background-color: #000000; /* Matte Black */
+  color: #ffd700; /* Gold */
+  padding: 10px;
+}
+
+.EDU-container .card svg {
+  fill: #ffd700; /* Gold */
+  vertical-align: middle;
+}
+
+/* Action button style */
+.EDU-container .action {
+  display: inline-block;
+  background-color: #ffd700; /* Gold */
+  color: #000000; /* Black text */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.EDU-container .action:hover {
+  background-color: #b8860b; /* Dark Gold */
+}
+
+/* Dropdown styles */
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.dropdown-content.active {
+    max-height: 1000px; /* Adjust this value based on content height */
+}
+
+/* ... */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  .dropdown-content {
+    display: none;
+  }
+  .card {
+    /* Earlier styles */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 2rem;
+    width: 220px;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    background-color: rgba(17, 24, 39, 1);
+    padding: 1.5rem;
+  
+    /* New styles to align the card on the top left side */
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    max-width: calc(100% - 40px); /* To ensure it fits appropriately */
+  }
+  
+  .header {
+    /* Earlier styles */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    /* Earlier styles */
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: oblique
+  }
+  
+  .price {
+    /* Earlier styles */
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .desc {
+    /* Earlier styles */
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.625;
+    color: rgba(156, 163, 175, 1);
+    text-align: center;
+    font-size: 1.75rem;
+    font-style: oblique;
+  }
+  
+  .lists {
+    /* Earlier styles */
+    margin-bottom: 1.5rem;
+    flex: 1 1 0%;
+    color: rgba(156, 163, 175, 1);
+  }
+  
+  .lists .list {
+    /* Earlier styles */
+    margin-bottom: 0.5rem;
+    display: flex;
+    margin-left: 0.5rem;
+  }
+  
+  .lists .list svg {
+    /* Earlier styles */
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-shrink: 0;
+    margin-right: 0.5rem;
+    color: rgba(167, 139, 250, 1);
+  }
+  
+  .action {
+    /* Earlier styles */
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 0.25rem;
+    background-color: rgba(167, 139, 250, 1);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: rgba(17, 24, 39, 1);
+  }
+  .Satolearn-Heading {
+    color: rgb(243, 239, 238);
+    font-size: 1.75rem;
+    text-align: Left;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    
+  }
+  
+  .Satolearn-Link{
+    color: rgb(108, 97, 237);
+    font-size: 1.75rem;
+    text-align: Left;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  }
+  .Sato-Logo {
+    text-align: center;
+}
+
+.welcome-button {
+    text-align: center;
+    display:block;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Gold */
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.welcome-button:hover {
+    background-color: #daa520; /* Dark Gold */
+}
+.logos-container {
+    display: flex; /* Use flexbox to arrange the logos in one line */
+    justify-content: center; /* Center the logos horizontally within the container */
+}
+
+.sCrypt-Logo img, .Satolearn-Logo img, .UOE-Logo img {
+    width: 150px; /* Set the desired width */
+    height: auto; /* This ensures the height adjusts proportionally based on the width */
+    padding: 10px; /* Add some padding between the logos */
+    margin-top: 40px;
+}
+.Satolearn-Logo p {
+    text-align: center;
+    margin-top: -40px;
+    color:  #ffd700;
+}
+.Satolearn-Logo img {
+    margin-top: 26px;
+}
+.UOE-Logo{
+    margin-top: 25px;
+}
+.button-container {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto; /* Set the left and right margins to auto */
+    padding: 10px 20px;
+    margin-top: -30px;
+    height: 50px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.feature img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* This ensures the image retains its aspect ratio and covers the container */
+    border-radius: 50%; /* For a circular shape, use border-radius: 50% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+}
+
+.how-it-works-section img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover; /* This ensures the image retains its aspect ratio and covers the container */
+    border-radius: 50%; /* For a circular shape, use border-radius: 50% */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for a subtle effect */
+}
+.Crypto-Logos{
+ margin-bottom: -100px;   
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.Billing-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background:#000;
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.Billing-container form{
+  padding:20px;
+  width:700px;
+  background: #0f0f0f;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+.Billing-container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.Billing-container form .row .col{
+  flex:1 1 250px;
+}
+
+.Billing-container form .row .col .title{
+  font-size: 20px;
+  color:#f5efef;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.Billing-container form .row .col .inputBox{
+  margin:15px 0;
+  color: white;
+}
+
+.Billing-container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.Billing-container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #0e0e0e;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.Billing-container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.Billing-container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.Billing-container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.Billing-container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #f7eeee);
+}
+
+.Billing-container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #27ae60;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.Billing-container form .submit-btn:hover{
+  background: #2ecc71;
+}
+.Converter-content{
+    text-align: center;
+    text-shadow: #000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+.Converter-content p {
+    color: #efeeeb;
+    text-align: left;
+}
+/* Apply some basic styling */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;  
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the navbar */  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar a {
+    color: #fff;
+  }
+  
+  /* Style the main content sections */
+  .row-container {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  .row-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the charts */
+  #chartPrice, 
+  #chartDepth {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the tabs */
+  .nav-tabs {
+    border-bottom: none;
+  }
+  
+  .nav-tabs > li > a {
+    color: #333; 
+  }
+  
+  .nav-tabs > li.active > a {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff; 
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 991px) {
+  
+    .navbar-header {
+      float: none;
+    }
+    
+    .navbar-toggle {
+      display: block; 
+    }
+    
+    .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); 
+    }
+    
+    .navbar-collapse.collapse {
+      display: none!important;
+    }
+  
+    .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px;
+    }
+  
+    .navbar-nav>li {
+      float: none;
+    }
+    
+    .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .col-md-3, 
+    .col-md-2,
+    .col-md-4 {
+      float: none;
+      width: auto;
+    }
+    
+  }
+   /* Equity Page for the Exchange */ 
+   
+   .table-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    overflow-x: auto; /* Enable horizontal scrolling for tables with wide content */
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .table-container th {
+    background-color: #ffd700;
+    color: #000;
+  }
+  
+  .table-container tr:nth-child(even) {
+    background-color: #f1f1f1;
+  }
+  
+  .table-container tr:nth-child(odd) {
+    background-color: #fff;
+  }
+/* Trying to add styles to the Nav Bar drop down feature */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+
+
+.MarketDepthMonitor img {
+  background-color: #000;
+  align-items: baseline;
+}
+
+/* Design and style for the voting page */
+/* Reset some default styles */
+.votingsection-heading{
+  margin-top: -75px;;
+  font-size: 30px;
+  color: #ffd700; /* Gold */
+}
+
+
+/* Trying out styles for Social Media Footer */
+.footer-card {
+  width:-1800px;
+  height: 45px;
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding: 25px 25px;
+  gap: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+/* for all social containers*/
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color:  #dec537;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: .3s;
+  margin-top: 1000px;
+  margin-bottom: -25px;
+}
+/* instagram*/
+.containerOne:hover {
+  background-color: #d62976;
+  transition-duration: .3s;
+}
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
+/* linkdin*/
+.containerThree:hover {
+  background-color: #0072b1;
+  transition-duration: .3s;
+}
+/* Whatsapp*/
+.containerFour:hover {
+  background-color: #128C7E;
+  transition-duration: .3s;
+}
+
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: .3s;
+}
+
+.socialSvg {
+  width: 17px;
+}
+
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* Articles Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #060606;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.container h2 {
+  width: 100%;
+  margin-top: 0;
+  color: white;
+}
+.container h2:hover {
+  color: #ffd700
+}
+.container h3 {
+  width: 100%;
+  margin-top: 0;
+  color: rgb(6, 6, 6);
+}
+
+.article-box {
+  flex: 0 0 calc(33.33% - 20px); /* width of each card minus the gap */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 10px; /* add margin to create a gap between cards */
+  box-sizing: border-box; /* ensures padding and border are included in the width */
+  border: 1px solid #daa520; /* border color */
+  transition: background-color 0.3s, color 0.3s; /* transition for hover effect */
+  width: 100px;
+  height:150px;
+  text-align: center;
+}
+
+.article-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.article-box:hover{
+  background-color: #daa520;
+  color: #000;
+}
+.EDU-video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio for responsive video */
+  width: 100%;
+  height: 0;
+  text-align: center;
+}
+
+.EDU-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Meet the team styles */ 
+.card-client {
+  background: #000;
+  width: 13rem;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 4px solid #ffd700;
+  box-shadow: 0 6px 10px rgba(207, 212, 222, 1);
+  border-radius: 10px;
+  text-align: center;
+  color: #ffd700;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+
+.card-client:hover {
+  transform: translateY(-10px);
+}
+
+.user-picture {
+  overflow: hidden;
+  object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  border: 4px solid #ffd700;
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.user-picture svg {
+  width: 2.5rem;
+  fill: currentColor;
+}
+
+.name-client {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.name-client span {
+  display: block;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.social-media:before {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin: 20px 0;
+  background: #ffd700;
+}
+
+.social-media a {
+  position: relative;
+  margin-right: 15px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media a:last-child {
+  margin-right: 0;
+}
+
+.social-media a svg {
+  width: 1.1rem;
+  fill: currentColor;
+}
+
+/*-- Tooltip Social Media --*/
+.tooltip-social {
+  background: #262626;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  padding: 0.5rem 0.4rem;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, -90%);
+  transition: all 0.2s ease;
+  z-index: 1;
+}
+
+.tooltip-social:after {
+  content: " ";
+  position: absolute;
+  bottom: 1px;
+  left: 50%;
+  border: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: transparent;
+  transform: translate(-50%, 100%);
+}
+
+.social-media a .tooltip-social:after {
+  border-top-color: #262626;
+}
+
+.social-media a:hover .tooltip-social {
+  opacity: 1;
+  transform: translate(-50%, -130%);
+}
+.cards-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Add space between the cards */
+    margin: 20px; /* Adjust margin as needed */
+}
+.market-list h2{
+color: #ffd700;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.market-list p{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:x-large;
+  }
+  /* Logo Final Styles */
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#logo {
+    width: 250px; /* You can adjust this value according to your needs */
+    height: auto;
+}
+/* Styles for Futures Trading Page */
+.market-list p{
+  text-align: left;
+}
+.market-list h2{
+  text-align: left;
+}

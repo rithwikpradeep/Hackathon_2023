@@ -1,3 +1,5 @@
+*** Kindly Check The Master Branch ***
+
 Satofin Readme
 Satofin: Empowering Financial Literacy and Trading
 Welcome to Satofin, a cutting-edge decentralized trading platform committed to empowering individuals with the knowledge and tools they need to navigate the complex world of finance confidently. Whether you're a beginner looking to learn the ropes of trading or an experienced investor seeking advanced insights, Satofin has you covered.
